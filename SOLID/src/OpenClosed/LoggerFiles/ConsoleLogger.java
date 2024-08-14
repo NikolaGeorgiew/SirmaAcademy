@@ -1,0 +1,10 @@
+package OCP.LoggerFiles;
+
+import OCP.LoggerFiles.Logger;
+
+public class ConsoleLogger implements Logger {
+    @Override
+    public void log(String message) {
+        System.out.println(message);
+    }
+}
