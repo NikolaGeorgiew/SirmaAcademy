@@ -1,2 +1,4 @@
-package LiskovSubstitution;public class NonFlyingBird {
+package LiskovSubstitution.BirdFiles;
+
+public class NonFlyingBird extends Bird{
 }

@@ -1,2 +1,5 @@
-package InterfaceSeggregation;public interface Printable {
+package InterfaceSeggregation.Machine;
+
+public interface Printable {
+    void print();
 }

@@ -1,4 +1,4 @@
-package OCP.DiscountFiles;
+package OpenClosed.DiscountFiles;
 
 public class StudentDiscount implements DiscountStrategy{
     @Override

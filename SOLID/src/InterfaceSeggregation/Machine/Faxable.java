@@ -1,2 +1,5 @@
-package InterfaceSeggregation;public interface Faxable {
+package InterfaceSeggregation.Machine;
+
+public interface Faxable {
+    void fax();
 }

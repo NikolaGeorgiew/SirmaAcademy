@@ -1,4 +1,4 @@
-package OCP.DiscountFiles;
+package OpenClosed.DiscountFiles;
 
 import java.util.HashMap;
 import java.util.Map;

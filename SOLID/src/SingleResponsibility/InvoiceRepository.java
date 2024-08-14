@@ -1,4 +1,4 @@
-package SRP;
+package SingleResponsibility;
 
 public class InvoiceRepository {
     public void saveInvoice(Invoice invoice){

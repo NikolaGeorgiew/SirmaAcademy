@@ -1,2 +1,4 @@
-package LiskovSubstitution;public class Bird {
+package LiskovSubstitution.BirdFiles;
+
+public abstract class Bird {
 }

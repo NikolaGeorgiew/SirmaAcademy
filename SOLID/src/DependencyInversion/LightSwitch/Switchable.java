@@ -1,4 +1,4 @@
-package DependencyInversion;
+package DependencyInversion.LightSwitch;
 
 public interface Switchable {
     void turnOn();

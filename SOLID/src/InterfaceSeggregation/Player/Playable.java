@@ -1,2 +1,6 @@
-package InterfaceSeggregation;public interface Playable {
+package InterfaceSeggregation.Player;
+
+public interface Playable {
+    void play();
+    void pause();
 }

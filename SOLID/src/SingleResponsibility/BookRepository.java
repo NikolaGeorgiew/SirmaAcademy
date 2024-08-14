@@ -1,6 +1,4 @@
-package SRP;
-
-import SRP.Book;
+package SingleResponsibility;
 
 public class BookRepository {
     public void saveToDatabase(Book book){

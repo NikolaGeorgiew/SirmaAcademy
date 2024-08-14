@@ -1,2 +1,5 @@
-package InterfaceSeggregation;public interface Shuffleable {
+package InterfaceSeggregation.Player;
+
+public interface Shuffleable {
+    void shuffle();
 }

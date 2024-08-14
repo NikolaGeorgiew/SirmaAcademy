@@ -1,2 +1,5 @@
-package LiskovSubstitution;public interface Flyable {
+package LiskovSubstitution.BirdFiles;
+
+public interface Flyable {
+    void fly();
 }

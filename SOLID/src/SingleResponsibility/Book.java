@@ -1,4 +1,4 @@
-package SRP;
+package SingleResponsibility;
 
 public class Book {
     private String title;

@@ -1,4 +1,4 @@
-package LiskovSubstitution;
+package LiskovSubstitution.EngineFiles;
 
 public class ElectricEngine extends Engine{
     @Override

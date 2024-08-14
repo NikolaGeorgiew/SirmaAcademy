@@ -1,6 +1,4 @@
-package OCP.LoggerFiles;
-
-import OCP.LoggerFiles.Logger;
+package OpenClosed.LoggerFiles;
 
 public class ConsoleLogger implements Logger {
     @Override

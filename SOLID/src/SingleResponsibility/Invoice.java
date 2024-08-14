@@ -1,4 +1,4 @@
-package SRP;
+package SingleResponsibility;
 
 public class Invoice {
     private double amount;
