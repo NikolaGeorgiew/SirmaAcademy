@@ -1,6 +1,12 @@
 package com.example.library.model;
 
+import jakarta.persistence.*;
+
+@Entity(name = "books")
 public class Book {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long Id;
     private String title;
     private String author;
     private int year;
@@ -14,6 +20,14 @@ public class Book {
     }
 
     public Book() {
+    }
+
+    public long getId() {
+        return Id;
+    }
+
+    public void setId(long id) {
+        Id = id;
     }
 
     public String getTitle() {
@@ -45,6 +59,7 @@ public class Book {
     }
 
     public void setIsbn(String isbn) {
+
         this.isbn = isbn;
     }
 }
